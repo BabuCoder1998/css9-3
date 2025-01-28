@@ -378,6 +378,12 @@ select::after {
 
 @media screen and (max-width: 384px) {
 
+    html {
+        max-width: 320px;
+        width: 100%;
+        
+    }
+
     .for-padding {
         padding: 0 16px;
     }
@@ -389,13 +395,13 @@ select::after {
     }
 
     .main-container {
-        max-width: 320px;
+        max-width: 384px;
         width: 100%;
     }
 
     header {
         padding: 16px;
-        max-width: 320px;
+        max-width: 384px;
         width: 100%;
     }
 
@@ -434,7 +440,6 @@ select::after {
     }
 
     .search-bar {
-        max-width: 288px;
         width: 100%;
     }
 
@@ -444,7 +449,7 @@ select::after {
     }
 
     .card {
-        max-width: 288px;
+        max-width: 328px;
         width: 100%;
 
     }
@@ -456,5 +461,9 @@ select::after {
     .background-img-and-content {
         background: url(images/background-img-formobile.png) lightgray 100%;
         
+    }
+
+    .header-content-box {
+        width: 100%;
     }
 }
